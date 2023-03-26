@@ -1,10 +1,10 @@
-let keyCodeDOM = document.getElementById("keyCode");
-let eventKeyDOM = document.getElementById("key");
-let eventWhichDOM = document.getElementById("which");
-let eventTypeDOM = document.getElementById("type");
-let eventCodeDOM = document.getElementById("code");
-let introMsgDOM = document.getElementById("intromsg");
-let mainDOM = document.getElementById("main");
+let keyCodeDOM = document.querySelector("#keyCode");
+let eventKeyDOM = document.querySelector("#key");
+let eventWhichDOM = document.querySelector("#which");
+let eventTypeDOM = document.querySelector("#type");
+let eventCodeDOM = document.querySelector("#code");
+let introMsgDOM = document.querySelector("#intromsg");
+let mainDOM = document.querySelector("#main");
 
 document.addEventListener("keydown", captureKey);
 
