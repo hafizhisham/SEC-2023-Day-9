@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Key Code Finder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="intromsg" id="intromsg" style="display: block">
+      Press any key to get the Key Code Finder
+    </div>
+    <div id="main" style="display: none">
+      <h1>JavaScript Key Code</h1>
+      <h1 id="keyCode"></h1>
+      <div class="keyCodeDetail">
+        <div class="detail">
+          <label>event.key</label>
+          <div id="key" class="box"></div>
+        </div>
+        <div class="detail">
+          <label>event.which</label>
+          <div id="which" class="box"></div>
+        </div>
+        <div class="detail">
+          <label>event.type</label>
+          <div id="type" class="box"></div>
+        </div>
+        <div class="detail">
+          <label>event.code</label>
+          <div id="code" class="box"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
